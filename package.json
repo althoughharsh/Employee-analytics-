@@ -1,0 +1,26 @@
+{
+  "name": "employee-ai-recommendation-system",
+  "version": "1.0.0",
+  "description": "Full-stack MERN application for employee performance management with AI recommendations",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "MERN",
+    "Employee Management",
+    "AI Recommendations",
+    "HR Management",
+    "Performance Tracking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
